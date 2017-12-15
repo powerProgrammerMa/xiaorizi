@@ -1,0 +1,94 @@
+@import "./components/mobile";
+@import "../scripts/demo/components/foot/index.less";
+@import "../scripts/demo/components/head/index.less";
+@import "../scripts/demo/container/home/index.less";
+@import "../scripts/demo/container/bangdan/index.less";
+@import "../scripts/demo/container/minsu/index.less";
+@import "../scripts/demo/container/my/index.less";
+@import "../scripts/demo/container/login/index.less";
+@import "../scripts/demo/container/register/index.less";
+@import "../scripts/demo/container/mycenter/index.less";
+@import "../scripts/demo/container/homesqcunxilu/index.less";
+@import "../scripts/demo/container/minsujinpingdetail/index.less";
+@import "../scripts/demo/container/bangdancd/index.less";
+@import "../scripts/demo/container/minsuxinqudetail/index.less";
+@import "../scripts/demo/container/myheart/index.less";
+@import "../scripts/demo/container/mymessage/index.less";
+@import "../scripts/demo/container/mydingdan/index.less";
+@import "../scripts/demo/container/xiangqu/index.less";
+@import "../scripts/demo/container/yijian/index.less";
+@import "../scripts/demo/container/fabu/index.less";
+@import "../scripts/demo/container/aboutus/index.less";
+@import "../scripts/demo/container/homejx/index.less";
+@import "../scripts/demo/container/homegoodperson/index.less";
+@import "../scripts/demo/container/homefj/index.less";
+@import "../scripts/demo/container/homejxdetail/index.less";
+@import "../assets/iconfont/iconfont.css";
+@import "./components/swiper-3.3.1.min.css";
+@import "./components/transition.less";
+
+@import "./components/layer.css";
+
+@import "components/animate.min.css";
+
+
+
+html,body,#app{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+::-webkit-input-placeholder { /* WebKit browsers */
+    color:    #999;
+    font-size: 40px;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color:    #999;
+    font-size: 40px;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color:    #999;
+    font-size: 40px;
+}
+:-ms-input-placeholder { /* Internet Explorer 10+ */
+    color:    #999;
+    font-size: 40px;
+}
+
+
+
+.page{
+    width:100%;
+    height:94.4%;
+    overflow: hidden;
+ }
+
+ .page-enter {
+    opacity:1;
+   animation:  slideright 0.8s both;
+ }
+ 
+ .page-enter.page-enter-active {
+   animation:  slideright 0.8s both;
+ }
+ @keyframes slideright{
+     from{opacity: 0}
+     to{opacity: 1}
+ }
+ 
+ .page-leave {
+   opacity:0.1;
+   animation:  slideleft 0.8s both;
+ }                                                                                                             
+ @keyframes slideleft{
+   from{opacity: 1}
+   to{opacity: 0 }
+ }
+ .page-leave.page-leave-active {
+   animation:  slideleft 0.8s both;
+ }
+
+
+
